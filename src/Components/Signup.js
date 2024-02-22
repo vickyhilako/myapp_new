@@ -33,37 +33,7 @@ function Signup() {
           .catch((err)=>console.log(err, "network Issue"))
        },[]);
   
-  // useEffect(()=>{},[info]) //it rus there change in info state.
-
-  
-
-  // useEffect(()=>{
-  //   console.log(1)
-  // })
-
-
-
-//   useEffect(()=>{
-//     fetch(API).then((result)=>{
-//       result.json().then((resp)=>{
-//         // console.warn("result",resp)
-//         setdata(resp)
-//       })
-//     })
-//   },[])
-  
-//   console.warn(data)
-//   useEffect(()=>{
-//   fetchdata(API);
-// })
-
-//  useEffect(() => console.log(info), [info]);
-
-//  const fetchdata = async (url) => {
-//    const res = await fetch(url);
-//    const data = await res.json();
-//    console.log(data);
-//  };
+ 
 
   const handleChange = (e) => {
     //  console.log(e.target.name);
